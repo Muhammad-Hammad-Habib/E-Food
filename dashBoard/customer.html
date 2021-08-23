@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Panel</title>
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- database -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDyFvrHCpJbRue_sNkQPTJDv-f0FkoPsAA",
+            authDomain: "e-food-38aaa.firebaseapp.com",
+            projectId: "e-food-38aaa",
+            storageBucket: "e-food-38aaa.appspot.com",
+            messagingSenderId: "507361615756",
+            appId: "1:507361615756:web:56cf1113b2d29d5eb840a9"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+
+
+
+<div class="sidebar">
+    <a href="#">Personal info.</a>
+    <a href="#" onclick="alert('Coming soon')">All Restaurant</a>
+    <a href="#" onclick="alert('Coming soon')">Ordered</a>
+    <a href="#" onclick="alert('Coming soon')">Accepted / Rejected </a>
+    <a href="#" onclick="alert('Coming soon')">Pending</a>
+
+  </div>
+  
+  <div class="content">
+
+    <h1>Customer Panel</h1>
+    <br>
+      
+    <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">User Name</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="user" class="form-control" aria-describedby="passwordHelpInline"  disabled>
+        </div>
+                
+      </div>
+<br>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">Email &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="email" class="form-control" aria-describedby="passwordHelpInline" disabled>
+        </div>
+                
+      </div>
+
+      <br>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">Password   &nbsp; &nbsp;</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="password" class="form-control" aria-describedby="passwordHelpInline" disabled>
+        </div>
+                
+      </div>
+
+      <br>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">User Type   &nbsp; &nbsp;</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="type" class="form-control" aria-describedby="passwordHelpInline" disabled>
+        </div>
+                
+      </div>
+
+      <br>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">Country   &nbsp;  &nbsp; &nbsp;</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="country" class="form-control" aria-describedby="passwordHelpInline" disabled>
+        </div>
+                
+      </div>
+
+      <br>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label  class="col-form-label">City  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;</label>
+        </div>
+        <div class="col-auto">
+          <input type="text" id="city" class="form-control" aria-describedby="passwordHelpInline" disabled>
+        </div>
+                
+      </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="app2.js"></script>
+
+</html>
